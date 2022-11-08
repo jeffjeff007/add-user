@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.836), rgba(230, 230, 250, 0.89));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    height: 90vh;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: linear-gradient(to right top, rgba(255, 192, 203, 0.884), rgba(255, 255, 255, 0.521), rgba(0, 255, 255, 0.144), rgba(255, 0, 255, 0.192));
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    width: 270px;
+    height:30px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: 0.5px solid gainsboro;
+    backdrop-filter: blur(2rem);
+}
+
+textarea {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.856), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(2rem);
+    border-radius: 0.5rem;
+    height: 90px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 9px;
+    background: linear-gradient(to right top, rgba(0, 255, 255, 0.836), rgba(230, 230, 250, 0.89));
+    border: 0.5px solid black;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.7);
+}
+
+button:hover {
+    background: linear-gradient(to left, rgba(245, 245, 245, 0.829), rgba(0, 255, 255, 0.603));
+    transition-duration: 1ms;
+    transition-delay: 0.5ms;
+    border: 1px solid rgb(8, 95, 95);
+    color: black;
+}
+
+.alternatives {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.alternatives a {
+    color: rgba(0, 0, 255, 0.747);
+}
+
+.alternatives a:hover {
+    text-decoration: none;
+    color: rgba(173, 3, 173, 0.938)
+}
